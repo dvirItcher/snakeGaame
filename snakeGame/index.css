@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color:gray;
+}
+#div{
+    display: flex;
+}
+#gameBoard{
+    background-color: green;
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(41,1fr);
+    grid-template-columns: repeat(41,1fr);
+}
+#scoreBoard{
+    width: 50vmin;
+    height: 50vmin;
+    background-color: black;
+    color: white;
+}
+#scoreBoard2{
+    width: 50vmin;
+    height: 50vmin;
+    background-color: black;
+    color: white;
+}
+.snake{
+    background-color: brown;
+}
+.snake2{
+    background-color: orange;
+}
+.food{
+    font-size: 0.8em;
+    border-radius: 50%;
+}
